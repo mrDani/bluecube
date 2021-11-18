@@ -11,7 +11,7 @@ function NavDrop() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <NavDropdown title="World" id="basic-nav-dropdown" style={{borderRight:'1px solid #ccc', padding:'8px'}}>
+                    <NavDropdown title="Programming"  id="basic-nav-dropdown" style={{borderRight:'1px solid #ccc', padding:'8px'}}>
                     <NavDropdown.Item href="/">Action</NavDropdown.Item>
                     <NavDropdown.Item href="/">Another action</NavDropdown.Item>
                     <NavDropdown.Item href="/">Something</NavDropdown.Item>

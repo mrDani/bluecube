@@ -39,21 +39,17 @@ return (
         <br/>
         <NavDrop/>
             {result.map((photo) => (
-                <div className="thummbnail">
-                    
-                        
+                <div className="thummbnail" >                                            
                         <Col sm={12} md={3} lg={4} xl={3}>
                             <Card >
                             <img variant="top" src={photo.urls.small} alt="" className="img-responsive"
                             style={{ height:'160px'}} />
                             </Card>
                             <br/>
-                        </Col>
-                    
-                </div>
-
+                        </Col>                   
+                </div>                
             ))}
-
+            
     </div>
         
 )
